@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAddPersonOut.setOnClickListener {
             val result = remoteServer?.addPersonOut(Person("Client_Jacky_out"))
-            //Log.i("Brain", "add Person out result = $result")
+            Log.i("Brain", "add Person out result = $result")
         }
 
         binding.btnGetPerson.setOnClickListener {
